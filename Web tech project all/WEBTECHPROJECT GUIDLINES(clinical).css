@@ -1,0 +1,57 @@
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 1080px;
+  min-height: 1080px;
+}
+.content {
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+padding-top: 5px;
+padding-bottom: 2px;
+padding-left: 5px;
+margin-left: -10px;
+}
+.content2{
+  position: fixed;
+  top:60px;
+  color:SeaShell;
+}
+#mild{
+  padding-top: 10px;
+   text-decoration: underline;
+}
+.social
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  display: flex;
+  padding: 0px;
+margin-bottom: 0;
+border-bottom: -20;
+margin-left: 1110px;
+  justify-content: center;
+  align-items: right;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}

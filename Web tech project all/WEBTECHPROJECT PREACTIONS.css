@@ -1,0 +1,103 @@
+body, html {
+  height: 100%;
+}
+body{
+  /* The image used */
+  background-image: url("https://cdn.dribbble.com/users/2022860/screenshots/10846535/media/4932a1ea8043f4dd667a50a78394e940.gif");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heading{
+  color: white;
+align-content:center;
+background: rgba(0, 0, 0, 0.7);
+color: #f1f1f1;
+width: 100%;
+ font-size: 20px;
+ margin-top: -8px;
+ margin-left:-8px;
+ padding: 3px;
+}
+.marque1{
+color:aqua;
+align-items: center;
+}
+.imgscrool{
+  padding-top:5px;
+  align-items: right;
+}
+#gif1{
+align-items: left;
+padding-right: 6px;
+}
+div.matter1, html {
+  height: 100%;
+}
+div.matter1 {
+   background-image: url("https://cdn.dribbble.com/users/2287419/screenshots/9833824/media/aa629b5d8b3762716b3b622d9bf6a005.gif" );
+   color:cyan;
+ width: 100%
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-left: -8px;
+   margin-right: -8px;
+   margin-top: -4px;
+  padding: 8px;
+  padding-bottom: 0px;
+  font-family:Cursive;
+}
+.head2{
+  font-family: monospace;
+
+}
+
+div.matter1.h2{
+  colour:focusoutblur;
+}
+.list li{
+  padding: 2px;
+}
+table {
+  border-spacing: 15px;
+}
+.imgscrool::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.social
+{
+  position: absolute;
+  z-index: 10;
+top: 0;
+  display: flex;
+  padding: 0px;
+  margin-left: 1090px;
+margin-bottom: 0;
+border-bottom: -20;
+padding-top: 15px;
+  justify-content: center;
+  align-items: right;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}

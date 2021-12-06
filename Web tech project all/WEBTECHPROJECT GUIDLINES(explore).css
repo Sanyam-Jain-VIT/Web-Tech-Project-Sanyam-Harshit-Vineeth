@@ -1,0 +1,97 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+padding-top: 5px;
+padding-bottom: 2px;
+padding-left: 10px;
+margin: 0;
+}
+.content h1{
+  align-items: center;
+  font-size: 3em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 30px;
+  padding-bottom: 2px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  text-shadow: 4px 4px black;
+}
+.photo1{
+  position: fixed;
+  padding: 4px;
+padding-left: 0px;
+  margin-top: 114px;
+}
+.matter{
+  position: fixed;
+  padding: 4px;
+padding-left: 0px;
+  margin-top: 114px;
+  margin-left: 510px;
+text-align: justify;
+color: white;
+text-shadow: 2px 2px black
+}
+.matter h3{
+  text-decoration: underline;
+
+}
+.matter li{
+  padding-bottom: 10px;
+}
+.matter2{
+  text-align: justify;
+bottom: 0;
+z-index:1000;
+width: 100%;
+
+}
+.social
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  display: flex;
+  padding: 0px;
+margin-bottom: 0;
+margin-left: 500px;
+
+justify-content: right;
+  align-items: right;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
