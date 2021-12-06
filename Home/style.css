@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+header {
+position: relative;
+}
+body {
+font-family: "Roboto", sans-serif;
+}
+nav {
+background: #fe9a99;
+height: 10vh;
+width: 100%;
+display: flex;
+align-items: center;
+padding-right: 60px;
+}
+.logo {
+flex: 1;
+margin-left: 40px;
+}
+.logo h1 {
+letter-spacing: 2px;
+font-size: 30px;
+}
+.list-items {
+flex: 2;
+display: flex;
+justify-content: space-evenly;
+}
+.list {
+list-style: none;
+}
+.link {
+text-decoration: none;
+color: black;
+font-weight: bold;
+transition: 0.4s background;
+}
+.link:hover {
+color: #ba4c4a;
+}
+.main {
+background: #fe9a99;
+height: 90vh;
+display: flex;
+justify-content: space-evenly;
+}
+.main-left {
+height: 100%;
+width: 50%;
+}
+.main-right {
+height: 100%;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.img-v {
+height: 30vw;
+width: 37vw;
+}
+.main-right p {
+font-size: 30px;
+padding-top: 20px;
+}
+.text {
+margin-left: 18%;
+padding-top: 32%;
+}
+.text span {
+font-size: 7vw;
+letter-spacing: 25px;
+font-weight: bold;
+}
+.text p {
+padding-top: 18px;
+font-weight: bold;
+letter-spacing: 1px;
+line-height: 25px;
+}
+.right-bar {
+position: absolute;
+width: 60px;
+height: 100%;
+background: rgba(0, 0, 0, 0.5);
+top: 0;
+right: 0;
+display: flex;
+justify-content: center;
+}
+.icons {
+position: absolute;
+bottom: 180px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+
+
+section.about{
+display: flex;
+align-items: center;
+color: white;
+height: 103%;
+flex-direction: column;
+background:linear-gradient(0deg, rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)), url(pic3.jfif);
+background-size: cover;
+}
+section.about .about-heading{
+height: 100%;
+align-items: center;
+/* font-size: xx-large; */
+margin-top: 2px;
+font-family: 'Nova Round', cursive;
+font-size: 40px;
+}
+section.about .about-content{
+font-size: 30px;
+text-align: left;
+letter-spacing: 2px;
+line-height: 1em;
+font-family: 'Playfair Display', serif;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  
+  background-color: DarkSalmon;
+  color: white;    
+}
+ .hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: black;
+}
+
+
+section.symptoms{
+height: 100%;
+background-color: aliceblue;
+align-items: center;
+}
+.symptoms-list{
+display: flex;
+justify-content: space-around;
+line-height: 50px;
+letter-spacing: 1px;
+font-family: 'Kufam', cursive;
+font-size: 30px;
+letter-spacing: 4px;
+background-color: aliceblue;
+padding-top: 8px;
+}
+ul{
+list-style: none;
+}
+
+

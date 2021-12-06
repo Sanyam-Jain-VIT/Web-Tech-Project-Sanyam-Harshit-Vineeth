@@ -1,0 +1,90 @@
+body{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    width: max-content;
+    padding: 30px 20px;
+    margin: auto;
+    font-family: 'Prompt', sans-serif;
+    font-size: 4rem;
+    /* background: linear-gradient(to bottom right, hsl(120,100%,25%) 25%, hsl(16,100%,66%) 50%, hsl(33,100%,50%) 75%, hsl(0,100%,50%) 100%); */
+}
+
+.date{
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 1.8rem;
+    font-family: 'Courgette', cursive;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateX(-1000px);
+        opacity: .1;
+        animation-timing-function: ease;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+img{
+    float: left;
+    width: max-content;
+    margin: 40px 60px;
+}
+#seen{
+    float: right;
+    width: 50%;
+    font-family: 'Charm', cursive;
+}
+.run1{
+    color: white;
+    background-color: red;
+    width: 250px;
+    padding: 16px 10px;
+    padding-left: 60px;
+    margin: 10px 0;
+    float: left;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    animation-name: animate;
+    animation-duration: 1s;
+}
+.run2{
+    color: white;
+    background-color: red;
+    width: 250px;
+    padding: 16px 10px;
+    padding-left: 60px;
+    margin: 10px 40px 10px 0;
+    float: right;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    animation-name: animate;
+    animation-duration: 1s;
+}
+.desc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: max-content;
+    color: white;
+    padding: 0px;
+    font-family: 'Courgette', cursive;
+    border-radius: 6px; 
+    background-color: black;      
+}
+span{
+    display: block;
+    font-size: 1.2rem;
+}
+p{
+    margin: 0;
+}

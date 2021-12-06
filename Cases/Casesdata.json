@@ -1,0 +1,186 @@
+[
+  {
+    "_id": 1,
+    "state": "Maharashtra",
+    "activecases": "66.2L",
+    "deaths": "1.41L"
+  },
+  {
+    "_id": 2,
+    "state": "Kerala",
+    "activecases": "50.7L",
+    "deaths": "35,877"
+  },
+  {
+    "_id": 3,
+    "state": "Karnataka",
+    "activecases": "29.9L",
+    "deaths": "38,146"
+  },
+  {
+    "_id": 4,
+    "state": "Tamil Nadu",
+    "activecases": "27.2L",
+    "deaths": "36,296"
+  },
+  {
+    "_id": 5,
+    "state": "Andhra Pradesh",
+    "activecases": "20.7L",
+    "deaths": "14,416"
+  },
+  {
+    "_id": 6,
+    "state": "Uttar Pradesh",
+    "activecases": "17.1L",
+    "deaths": "22,909"
+  },
+  {
+    "_id": 7,
+    "state": "West Bengal",
+    "activecases": "16L",
+    "deaths": "19,319"
+  },
+  {
+    "_id": 8,
+    "state": "Delhi",
+    "activecases": "14.4L",
+    "deaths": "25,095"
+  },
+  {
+    "_id": 9,
+    "state": "Odisha",
+    "activecases": "10.5L",
+    "deaths": "8,379"
+  },
+  {
+    "_id": 10,
+    "state": "Chhattisgarh",
+    "activecases": "10.1L",
+    "deaths": "13,588"
+  },
+  {
+    "_id": 11,
+    "state": "Rajasthan",
+    "activecases": "9.55L",
+    "deaths": "8,954"
+  },
+  {
+    "_id": 12,
+    "state": "Gujarat",
+    "activecases": "8.27L",
+    "deaths": "10,090"
+  },
+  {
+    "_id": 13,
+    "state": "Madhya Pradesh",
+    "activecases": "7.93L",
+    "deaths": "10,524"
+  },
+  {
+    "_id": 14,
+    "state": "Haryana",
+    "activecases": "7.71L",
+    "deaths": "10,051"
+  },
+  {
+    "_id": 15,
+    "state": "Bihar",
+    "activecases": "7.26L",
+    "deaths": "9,662"
+  },
+  {
+    "_id": 16,
+    "state": "Telangana",
+    "activecases": "6.74L",
+    "deaths": "3,975"
+  },
+  {
+    "_id": 17,
+    "state": "Assam",
+    "activecases": "6.14L",
+    "deaths": "6,052"
+  },
+  {
+    "_id": 18,
+    "state": "Punjab",
+    "activecases": "6.03L",
+    "deaths": "16,573"
+  },
+  {
+    "_id": 19,
+    "state": "Jharkhand",
+    "activecases": "3.49L",
+    "deaths": "5,139"
+  },
+  {
+    "_id": 20,
+    "state": "Uttarakhand",
+    "activecases": "3.44L",
+    "deaths": "7,403"
+  },
+  {
+    "_id": 21,
+    "state": "Jammu and Kashmir",
+    "activecases": "3.34L",
+    "deaths": "4,453"
+  },
+  {
+    "_id": 22,
+    "state": "Himachal Pradesh",
+    "activecases": "2.26L",
+    "deaths": "3,821"
+  },
+  {
+    "_id": 23,
+    "state": "Goa",
+    "activecases": "1.79L",
+    "deaths": "3,375"
+  },
+  {
+    "_id": 24,
+    "state": "Mizoram",
+    "activecases": "1.29L",
+    "deaths": "463"
+  },
+  {
+    "_id": 25,
+    "state": "Manipur",
+    "activecases": "1.25L",
+    "deaths": "1,953"
+  },
+  {
+    "_id": 26,
+    "state": "Tripura",
+    "activecases": "84,682",
+    "deaths": "817"
+  },
+  {
+    "_id": 27,
+    "state": "Meghalaya",
+    "activecases": "84,046",
+    "deaths": "1,464"
+  },
+  {
+    "_id": 28,
+    "state": "Arunachal Pradesh",
+    "activecases": "55,222",
+    "deaths": "280"
+  },
+  {
+    "_id": 29,
+    "state": "Sikkim",
+    "activecases": "32,101",
+    "deaths": "401"
+  },
+  {
+    "_id": 30,
+    "state": "Nagaland",
+    "activecases": "32,014",
+    "deaths": "694"
+  },
+  {
+    "_id": 31,
+    "updated_on": "05-12-2021"
+  }
+]

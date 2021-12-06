@@ -1,0 +1,220 @@
+:root{
+    --clr-neutral-900: hsl(207, 10%, 5%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-400: hsl(142, 90%, 61%);
+    --clr-neutral-300: hsl(0, 100%, 50%);
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    display: block;
+    margin: 0;
+    min-height: 100vh;
+    place-items: center;
+    line-height: 1.5;
+}
+
+.top{
+    width: 100%;
+    height: 700px;
+    background-image: url("https://s.yimg.com/ny/api/res/1.2/pnHd7cqKM1UXzAB2j7OgLg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU2MA--/https://media.zenfs.com/en/south_china_morning_post_621/ae596efdcd46833c6c5de531fc86b10f");
+    background-size: cover;
+    overflow-y: hidden; 
+}
+
+.top-inner{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to left,
+        hsl(0 0% 0% / 0),
+        hsl(0 0% 0% / 0.3) 20%,
+        hsl(0 0% 0% / 0.5) 40%,
+        hsl(0 0% 0% / 0.8) 70%,
+        hsl(0 0% 0% / 1)
+    );
+    overflow: hidden;
+}
+
+.top-content{
+    color: var(--clr-neutral-100);
+    width: 60%;
+    margin: 100px 0 0 40px;
+    font-size: 1.3rem;
+    font-family: 'Courgette', cursive;
+}
+
+.top-content h1{
+    font-size: 4rem;
+    color: navajowhite;
+}
+
+.imp{
+    color: var(--clr-neutral-300);
+}
+
+.heading{
+    background: var(--clr-neutral-900);
+    color: lightgreen;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 3rem;
+}
+
+.heading h1{
+    margin: 0;
+}
+
+.cards{
+    display: block;
+    background: var(--clr-neutral-900);
+}
+
+.back{
+    display: inline-block;
+    width: 400px;
+    background-color: cyan;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 50px;
+}
+
+.card{
+    width: 380px;
+    height: 400px;
+    padding: 160px 0 0;
+    color: var(--clr-neutral-100);
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: transform 500ms ease;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.inner{
+    --trans: 70%;
+    --padding: 1.5rem;
+    padding: var(--padding);
+    width: 100%;
+    background: linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(0 0% 0% / 1)
+    );
+    transform: translateY(var(--trans));
+    transition: transform 1000ms ease;
+}
+
+.card:hover .inner:not(.title){
+    transform: translateY(0%);
+}
+
+.title{
+    position: relative;
+    width: max-content;
+}
+
+.title h1{
+    margin: 0 0 10px 0;
+}
+
+.title::after{
+    content: '';
+    position: absolute;
+    background: var(--clr-neutral-300);
+    height: 3px;
+    width: calc(100% + var(--padding));
+    left: calc(var(--padding) * -1);
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 500ms ease;
+    transition-delay: 1000ms;
+}
+
+.card:hover .title::after{
+    transform: scaleX(1);
+}
+
+.btn, .rembtn{
+    cursor: pointer;
+    color: var(--clr-neutral-100);
+    text-decoration: none;
+    background-color: var(--clr-neutral-400);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.extra{
+    transform: translateY(100%);
+    transition: transform 500ms ease;
+}
+
+.trans{
+    transform: translateY(0%);
+    transition: transform 500ms ease;
+}
+
+.extra p{
+    margin: 0px 0px 7px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .top-content{
+        width: 90%;
+    }
+    .cards{
+        padding: 50px 0px;
+    }
+    .back{
+        display: block;
+        margin: 50px auto;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .top-content{
+        margin-top: 0px;
+    }
+    .top-content h1, .top-content p:first-of-type{
+        margin: 0px;
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 405px) {
+    .top-content h1{
+        font-size: 2rem;
+    }
+    .top-content p{
+        font-size: 1rem;
+    }
+    .top-content{
+        height: 1000px;
+    }
+    .back{
+        width: 300px;
+        margin: 20px auto;
+    }
+}

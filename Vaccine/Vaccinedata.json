@@ -1,0 +1,96 @@
+{
+    "vaccine": [
+        {
+            "name": "ZyCoV-D",
+            "madein": "India",
+            "developedby": "Indian pharmaceutical company Cadila Healthcare",
+            "url" : "https://en.wikipedia.org/wiki/ZyCoV-D",
+            "doses": 3,
+            "age": "between 12 and 18 years",
+            "efficacy": "66.66%",
+            "gap": "6-8 weeks",
+            "price": "Rs. 1900 per dose",
+            "img": "https://cdn.editorji.com/zKhR3LH7Pz.jpg"
+        },
+        {
+            "name": "mRNA-1273",
+            "madein": "United State (US)",
+            "developedby": "American company Moderna",
+            "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/Moderna.html",
+            "doses": 2,
+            "age": "18 years and older",
+            "efficacy": "93%",
+            "gap": "28 days",
+            "price": "Rs 2800 per dose",
+            "img": "https://tse3.mm.bing.net/th?id=OIP.whH8vKpIRWxofNN0T4Rh3QHaE7&pid=Api&P=0&w=237&h=159"
+        },
+        {
+            "name": "Sputnik V",
+            "madein": "Russia",
+            "developedby": "Gamaleya Research Institute of Epidemiology and Microbiology",
+            "url": "https://www.healthline.com/health/adult-vaccines/sputnik-v",
+            "doses": 2,
+            "age": "18 years and older",
+            "efficacy": "91.8%",
+            "gap": "21 days",
+            "price": "Rs. 995.40 per dose",
+            "img": "https://tse3.mm.bing.net/th?id=OIP.xAziJwx5Hp9a497g5Ma6EwHaEH&pid=Api&P=0&w=316&h=177"
+        },
+        {
+            "name": "Johnson & Johnson",
+            "madein": "Netherlands",
+            "developedby": "Janssen Pharmaceuticals Companies of Johnson & Johnson",
+            "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/janssen.html",
+            "doses": 1,
+            "age": "18 years and older",
+            "efficacy": "66.3%",
+            "gap": "none",
+            "price": "Rs. 750",
+            "img": "https://tse2.mm.bing.net/th?id=OIP._yrg-L2agQPgBTR2AQ5nTgHaEm&pid=Api&P=0&w=274&h=171"
+        },
+        {
+            "name": "AstraZeneca",
+            "madein": "United Kingdom (UK)",
+            "developedby": "Oxford University and British-Swedish company",
+            "url": "https://www.who.int/news-room/feature-stories/detail/the-oxford-astrazeneca-covid-19-vaccine-what-you-need-to-know",
+            "doses": 2,
+            "age": "18 years and older",
+            "efficacy": "63.09%",
+            "gap": "8 to 12 weeks",
+            "price": "Rs. 1000 per dose",
+            "img": "https://tse1.mm.bing.net/th?id=OIP.hkI9T-2blYoqyNgZGUVbQAHaE7&pid=Api&P=0&w=227&h=152"
+        },
+        {
+            "name": "Covishield",
+            "madein": "India",
+            "developedby": "British-Swedish pharmaceutical company",
+            "url": "https://www.1mg.com/drugs/covishield-vaccine-645592",
+            "doses": 2,
+            "age": "between 18 and 44 years",
+            "efficacy": "90%",
+            "gap": "12 to 16 weeks",
+            "price": "Rs. 780 per dose",
+            "img": "https://tse1.mm.bing.net/th?id=OIP.HuG_vuyFHoepTwYYJ3zDSQHaEE&pid=Api&P=0&w=299&h=165"
+        },
+        {
+            "name": "Covaxin",
+            "madein": "India",
+            "developedby": "Indian Council of Medical Research and National Institute of Virology",
+            "url": "https://www.1mg.com/drugs/covaxin-vaccine-645593",
+            "doses": 2,
+            "age": "between 18 and 60 years",
+            "efficacy": "81%",
+            "gap": "2 weeks",
+            "price": "Rs. 1410 per dose",
+            "img": "https://tse4.mm.bing.net/th?id=OIP.LRxsGe7Sa42dAbdydan_dwHaEj&pid=Api&P=0&w=247&h=153"
+        }
+    ],
+    "updated_data": [
+        {
+            "given": "126Cr",
+            "vaccinated": "46.5Cr",
+            "fully": "33.7%",
+            "updated": "05-12-2021"
+        }
+    ]
+}

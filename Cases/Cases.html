@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cases</title>
+        <meta name="description" content="Blogs on covid-19">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Charm&family=Courgette&family=Prompt:wght@600&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="./Casesstyle.css">
+    </head>
+    <body>
+        <h1>Cases in India</h1>
+        <p class="date"></p>
+        <img src="https://mea.gov.in/images/india-map-img.png" onclick="mouseover(event, 'Delhi')" alt="india-map" usemap="#indiacases" width="500" height="600">
+        <map name="indiacases">
+            <area  alt="Delhi" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="circle" coords="166,167" style="outline: none; z-index: 1;"/>
+            <area  alt="Jammu and Kashmir" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="101,17,121,3,143,0,156,7,168,19,180,33,205,27,225,32,225,45,216,52,205,59,205,72,212,87,201,87,195,89,184,81,169,77,152,82,148,89,138,89,133,79,116,74" style="outline:none;" />
+            <area  alt="Himachal Pradesh" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="148,88,159,77,173,82,187,88,197,99,199,112,189,117,180,121,175,131,163,122,156,113,147,100" style="outline:none;" />
+            <area  alt="Punjab" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="147,91,140,93,128,97,126,109,122,117,116,127,114,133,123,137,131,137,135,144,142,144,152,137,157,133,162,127" style="outline:none;" />
+            <area  alt="Haryana" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="124,138,130,138,134,141,136,145,141,142,147,142,153,138,158,136,163,131,163,123,168,126,172,131,171,138,168,145,165,150,165,157,160,164,166,173,170,178,164,182,156,177,149,178,139,166,136,154,125,150" style="outline:none;">
+            <area  alt="Rajasthan" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="109,135,103,144,96,152,84,159,77,170,60,174,52,168,34,187,41,194,42,210,47,214,54,224,60,235,72,237,85,242,92,244,98,256,106,265,113,266,120,260,122,244,125,236,139,241,141,255,149,250,157,243,164,235,154,222,162,215,168,209,178,205,173,198,168,184,160,181,148,185,147,175,136,154,124,150,121,140" style="outline:none;" />
+            <area  alt="Gujarat" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="59,238,44,239,26,239,16,239,8,245,8,254,16,265,31,266,44,266,38,273,25,278,17,278,20,285,25,295,32,301,49,309,60,305,74,291,76,284,81,302,84,324,90,317,98,310,100,302,104,294,106,284,112,274,99,265,96,252,84,242" style="outline:none;" />
+            <area  alt="Madhya Pradesh" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="190,205,155,220,168,229,168,237,161,244,158,253,148,253,138,257,138,245,124,241,124,252,120,265,116,273,109,284,113,297,123,299,138,305,150,305,163,301,176,307,191,305,211,305,223,311,226,300,240,286,251,274,244,261,263,261,257,245,238,239,218,236,204,237,190,232,196,249,184,250,185,228,196,216" style="outline:none;" />
+            <area  alt="Maharashtra" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="105,295,99,308,92,317,78,326,80,349,86,409,101,407,104,394,117,391,125,388,125,378,140,384,148,373,164,365,173,346,181,338,209,345,216,358,224,345,220,321,216,308,197,302,174,308,144,312,153,305,136,308" style="outline:none;" />
+            <area  alt="Karnataka" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="160,368,142,383,127,380,126,389,102,397,102,409,96,425,103,453,108,473,124,485,137,497,151,493,159,485,169,473,175,465,157,453,146,444,151,425,160,412" style="outline:none;" />
+            <area  alt="Kerala" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="111,476,114,489,126,504,126,517,132,533,140,553,147,561,145,550,150,540,148,525,142,519,140,512,135,499" style="outline:none;" />
+            <area  alt="Tamil Nadu" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="210,462,194,465,179,475,165,473,158,485,152,492,136,496,142,510,143,525,150,532,150,550,148,563,164,560,171,545,184,542,196,522,201,519,200,491,209,482" style="outline:none;" />
+            <area  alt="Andhra Pradesh" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="154,416,150,429,145,438,157,450,170,454,179,465,196,465,210,457,210,445,210,428,221,413,235,405,252,395,296,358,283,361,276,357,268,367,260,369,253,375,234,380,216,394,199,402,189,409" style="outline:none;" />
+            <area  alt="Telangana" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="179,337,177,349,168,356,164,368,164,381,160,396,160,405,168,413,176,410,188,406,196,398,208,393,221,389,233,381,224,373,213,362,205,357,211,350" style="outline:none;" />
+            <area  alt="Odisha" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="347,305,338,311,338,325,333,333,323,341,311,341,300,353,289,361,281,358,276,356,264,362,258,369,250,375,238,376,235,375,246,364,249,343,257,338,254,320,272,315,278,298,288,288,304,291,323,297,325,289" style="outline:none;" />
+            <area  alt="Chhattisgarh" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="271,262,253,263,244,264,252,272,244,285,233,287,224,307,222,318,219,339,228,346,221,348,216,360,224,365,232,377,241,366,248,353,245,336,253,338,256,317,269,310,277,301,288,289,289,282" style="outline:none;" />
+            <area  alt="Uttarakhand" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="176,132,183,121,200,120,204,112,215,124,235,137,217,165,197,157,182,149,188,143,179,145" style="outline:none;" />
+            <area  alt="Uttar Pradesh" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="177,136,170,142,166,150,171,160,173,169,176,175,171,182,174,193,178,200,186,201,194,203,199,209,197,217,192,223,186,230,194,227,197,233,205,233,210,235,215,231,220,231,222,236,227,236,231,239,237,236,242,235,248,239,253,243,258,245,265,249,263,255,269,262,273,255,276,247,272,239,288,225,294,225,286,218,283,211,290,208,284,201,280,193,272,193,263,187,250,181,238,177,216,166,199,159,189,147" style="outline:none;" />
+            <area  alt="Bihar" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="283,194,291,206,287,212,295,225,284,230,273,239,276,249,288,249,300,253,312,249,326,252,336,246,343,238,352,233,353,226,353,218,359,210,337,211" style="outline:none;" />
+            <area  alt="Jharkhand" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="348,236,339,245,327,253,319,246,304,256,293,257,284,254,276,253,280,261,284,274,288,288,303,289,314,297,320,288,336,293,327,279,320,273,327,269,340,261,352,251" style="outline:none;" />
+            <area  alt="West Bengal" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="384,205,382,216,375,213,365,211,359,210,358,218,366,229,364,237,357,241,368,253,368,268,374,281,375,290,363,300,360,293,350,303,336,293,331,281,321,276,323,271,337,264,348,259,354,247,354,234,354,223,352,221,358,201,366,198" style="outline:none;" />
+            <area  alt="Sikkim" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="358,182,356,197,368,196,368,186,367,180" style="outline:none;" />
+            <area  alt="Arunachal Pradesh" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="427,198,424,192,420,183,436,179,444,169,456,159,465,151,481,154,488,147,492,156,499,165,512,165,510,177,512,188,506,185,490,195,492,187,492,175,460,186,453,198" style="outline:none;" />
+            <area  alt="Nagaland" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="476,198,463,205,460,215,452,224,466,223,474,222,480,215" style="outline:none;" />
+            <area  alt="Manipur" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="452,231,459,227,470,226,471,239,468,245,465,253,444,251,447,240" style="outline:none;" />
+            <area  alt="Mizoram" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="441,249,434,253,436,269,440,294,450,286,448,277,454,265,451,253" style="outline:none;" />
+            <area  alt="Tripura" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="428,250,413,259,418,267,426,269,432,260" style="outline:none;" />
+            <area  alt="Meghalaya" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="389,225,397,233,410,233,422,233,433,236,438,229,435,223,431,217,413,225,399,221" style="outline:none;" />
+            <area  alt="Assam" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="388,205,389,222,412,222,424,216,436,223,435,238,432,248,440,249,444,242,452,230,449,224,455,215,465,204,479,196,493,187,488,177,464,185,452,197" style="outline:none;" />
+            <area  alt="Goa" onmouseover="mouseover(event, this.alt)" onmouseout="mouseout()" shape="poly" coords="88,411.00000190734863,93,428.00000190734863,96,425.00000190734863,96,415.00000190734863" style="outline:none;" />
+        </map>
+        <div id="seen"></div>
+        <div class="desc"></div>
+        <script src="./Casesscript.js"></script>
+    </body>
+</html>

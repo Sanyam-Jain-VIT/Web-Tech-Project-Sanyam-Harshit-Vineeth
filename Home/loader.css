@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+
+body{
+    margin: 0;
+}
+#loader {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Anonymous Pro", "Monospace";
+    font-size: 30px;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+#circular-text {
+    position: relative;
+    color: #fff;
+    border-radius: 100%;
+    padding: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    animation: roll 5000ms linear infinite;
+}
+#circular-text span {
+    position: absolute;
+    transform-origin: top left;
+}
+@keyframes roll{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

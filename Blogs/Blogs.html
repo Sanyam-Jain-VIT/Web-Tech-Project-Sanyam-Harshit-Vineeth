@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Blogs</title>
+        <meta name="description" content="Blogs on covid-19">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../loader.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Charm&family=Courgette&family=Prompt:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="./Blogsstyle.css" rel="stylesheet">
+        <script src="./Blogsscript.js"></script>
+    </head>
+    <body ng-app = "Blogs" ng-controller = "Ctrlblogs">
+        <div class="top">
+            <div class="top-inner">
+                <div class="top-content">
+                    <h1>Blogs</h1>
+                    <p>A blog is a discussion or informational website published 
+                        on the World Wide Web consisting of discrete, often informal diary-style text entries (posts). 
+                        Posts are typically displayed in reverse chronological order, so that the most recent post appears first, 
+                        at the top of the web page. Until 2009, blogs were usually the work of a single individual,[citation needed] 
+                        occasionally of a small group, and often covered a single subject or topic. In the 2010s, 
+                        "multi-author blogs" (MABs) emerged, featuring the writing of multiple authors and sometimes professionally edited. 
+                        MABs from newspapers, other media outlets, universities, think tanks, advocacy groups, and similar institutions account 
+                        for an increasing quantity of blog traffic. The rise of Twitter and other "microblogging" 
+                        systems helps integrate MABs and single-author blogs into the news media. 
+                        Blog can also be used as a verb, meaning to maintain or add content to a blog.</p>
+                </div>
+            </div>
+        </div>
+        <div class="topics">
+            Tags:
+            <a ng-click="all()">All</a>
+            <a ng-click="vaccine()">Vaccine</a>
+            <a ng-click="covid()">Covid</a>
+            <a ng-click="health()">HealthCare</a>
+            <a ng-click="education()">Education</a>
+        </div>
+        <div class="inputbox">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" placeholder="Search" ng-model="search">
+        </div>
+        <div class="blogs" ng-model="data">
+            <div class="blog" ng-repeat = "x in data | filter: search">
+                <h1>{{x.title}}</h1>
+                <p>{{x.desc}}... <a href="{{x.url}}" target="/blank">read more</a></p>
+                <p class="published">{{x.published}}</p>
+            </div>
+        </div>
+    </body>
+</html>
